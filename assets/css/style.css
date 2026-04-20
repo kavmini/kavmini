@@ -272,6 +272,17 @@ body {
   font-weight: 300;
   color: #c0c0c0;
   letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.ll-course--featured .ll-course-title {
+  font-weight: 500;
+  color: #111;
+}
+
+.ll-course-tag--pop {
+  color: #888;
+  font-weight: 400;
 }
 
 .ll-cta {
