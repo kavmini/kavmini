@@ -1,0 +1,37 @@
+<section class="contact-section" id="contact">
+  <div class="contact-inner">
+
+    <div class="contact-left">
+      <div class="section-label contact-label-inv">Contact</div>
+      <p class="contact-heading">If you think I can be of help<br>in your projects or those<br>of your company, <em>write me.</em></p>
+      <div class="section-label contact-label-inv" style="margin-top:28px;">Or find me on</div>
+      <div class="contact-socials">
+        <a class="contact-social" href="https://www.linkedin.com/in/victoriaperez" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="contact-social" href="https://twitter.com/kavmini" target="_blank" rel="noopener">Twitter / X</a>
+      </div>
+    </div>
+
+    <form class="contact-form" name="contact" method="POST" data-netlify="true" action="/thanks">
+      <div class="form-row">
+        <div class="form-field">
+          <label class="cf-label" for="cf-name">Name</label>
+          <input class="cf-input" id="cf-name" type="text" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-field">
+          <label class="cf-label" for="cf-email">Email</label>
+          <input class="cf-input" id="cf-email" type="email" name="email" placeholder="your@email.com" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="cf-label" for="cf-subject">Subject</label>
+        <input class="cf-input" id="cf-subject" type="text" name="subject" placeholder="What is it about?">
+      </div>
+      <div class="form-field">
+        <label class="cf-label" for="cf-message">Message</label>
+        <textarea class="cf-input cf-textarea" id="cf-message" name="message" placeholder="Tell me about your project..." required></textarea>
+      </div>
+      <button class="cf-submit" type="submit">Send message</button>
+    </form>
+
+  </div>
+</section>
